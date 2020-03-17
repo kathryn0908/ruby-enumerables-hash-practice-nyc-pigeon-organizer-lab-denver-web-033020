@@ -15,3 +15,7 @@ names.each do |n|
     items.each do |feature, arr|
       arr.each do |name|
         pigeon_hash[name][attribute] << feature.to_s if name == n 
+      end
+    end
+  end
+end
