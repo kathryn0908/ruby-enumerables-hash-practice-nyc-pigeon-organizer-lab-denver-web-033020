@@ -14,4 +14,4 @@ names.each do |n|
      pigeon_hash[n][attribute]
     items.each do |feature, arr|
       arr.each do |name|
-        pigeon_hash[name]
+        pigeon_hash[name][attribute] << 
