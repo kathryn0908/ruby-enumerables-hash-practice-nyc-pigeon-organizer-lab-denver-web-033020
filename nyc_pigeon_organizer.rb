@@ -19,4 +19,5 @@ names.each do |n|
     end
   end
 end
+pigeon_hash
 end
